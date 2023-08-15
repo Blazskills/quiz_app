@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <button id="start-btn">Start</button>
+
+    <div style="display: none;" id="show-quiz">
+        <div class="header">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; color: #fff5f5; margin-bottom: 15px;">
+                QUIZ APP
+            </p>
+            <p style="text-align: center; font-size: 20px; font-weight: normal; color: #FFF0F0AB;">
+                Testing your ability in real world
+            </p>
+        </div>
+        <div class="container">
+
+            <nav class="counter" id="count-house">
+                <p style="font-size: 20px; font-weight: bold; text-align: center;" id="time-count">Time Left: 30s</p>
+            </nav>
+            <div class="question-container">
+                <div class="question-body">
+                    <div class="question-right">
+                        <h1 style="font-size: 25px;" id="question">What is a group of crows called?</h1>
+                        <div style="margin-top: 15px;" id="answer-button">
+                            <button class="btn">Answer 1</button>
+                            <button class="btn">Answer 2</button>
+                            <button class="btn">Answer 3</button>
+                            <button class="btn">Answer 4</button>
+                        </div>
+                        <button id="next-btn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script type="module" src="js/newjsx.js"></script> -->
+    <script type="module" src="js/quiz.js"></script>
+</body>
+
+</html>
